@@ -7,6 +7,7 @@
     position: absolute;
     top: 444px;
     left: 0;
+    z-index: -1;
 }
 .header {
     background: url(../images/header_bg.jpg) no-repeat top center;
@@ -69,7 +70,91 @@
 
 
 /*----------------------------------------------*/
+.global_box {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    background-color: #fff;
+    min-height: 700px;
+}
+.box1 {
+    padding-top: 25px;
+}
 /*----------------------------------------------*/
+
+.lbt {
+	width: 617px;
+	height: 362px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.lbt ul.img {
+	width: 900%;
+	position: absolute;
+}
+
+.lbt ul.img li {
+	float: left;
+}
+
+.lbt ul.img li a {
+	display: block;
+	width: 617px;
+	height: 362px;
+}
+
+.lbt ul.img li a img {
+	display: block;
+	width: 617px;
+	height: 362px;
+}
+
+.lbt .hwz {
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	background: rgba(0, 0, 0, 0.5);
+	background: #000\9;
+	filter: alpha(opacity=50);
+}
+
+.lbt .hwz>div {
+	padding-left: 20px;
+	font: 700 14px/35px "Microsoft Yahei";
+	color: #fff;
+	display: none;
+	position: relative;
+}
+
+.lbt ul.num {
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+	z-index: 999;
+}
+
+.lbt ul.num li {
+	float: left;
+	margin-right: 8px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+	font: 300 16px/22px "Microsoft Yahei";
+	text-align: center;
+	color: #fff;
+}
+
+.lbt ul.num li.now {
+	background-color: #df5050;
+}
+
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /*----------------------------------------------*/
